@@ -1,0 +1,126 @@
+@media  screen and (min-width: 1200px){
+  #height_Auto{
+      height: 960px;
+  }
+  .Button_Accion{
+    font-size: 20px;
+  }
+}
+@media  screen and (max-width: 1200px){
+  #height_Auto{
+      height: 920px;
+  }
+  .Button_Accion{
+    font-size: 18px;
+  }
+}
+@media  screen and (max-width: 992px){
+  #height_Auto{
+      height: 890px;
+  }
+  .Button_Accion{
+    font-size: 17px;
+  }
+}
+@media  screen and (max-width: 768px){
+  #height_Auto{
+      height: 920px;
+  }
+  .Button_Accion{
+    font-size: 12px;
+  }
+}
+@media  screen and (max-width: 576px){
+  #height_Auto{
+      height: 380px;
+  }
+  .Button_Accion{
+    font-size: 17px;
+  }
+}
+#sectionPricipal{
+  background-color: rgba(240, 240, 240,0.815);
+}
+#NavbarConfi{
+  background-color: rgb(8, 32, 65);
+  margin-bottom: 2px;
+}
+#Option_config{
+  margin-right: 60px;
+}
+#dropdownMenuButton{
+  background-color: rgb(8, 32, 65);
+}
+.Button_Accion{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    border-color: #082041;
+    color: #082041;
+}
+.Button_Accion:hover{
+  background-color: #294162;
+  border-color: #294162;
+  color: rgb(255, 255, 255);
+}
+#sectionPricipal{
+  margin-left: 25px;
+  margin-right: 25px;
+  border-left-width: 10px;
+  padding-left: 25px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+#row_confi{
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+/* botton de buscar*/
+body,html{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /*background: #e74c3c !important;*/
+  }
+  .searchbar{
+  margin-bottom: auto;
+  margin-top: 2px;
+  height: 60px;
+  background-color: #353b48;
+  border-radius: 30px;
+  padding: 10px;
+  margin-left: auto;
+  }
+  .search_input{
+  color: white;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color:transparent;
+  line-height: 40px;
+  transition: width 0.5s linear;
+  }
+  .searchbar:hover > .search_input{
+  padding: 0 10px;
+  width: 450px;
+  caret-color:red;
+  transition: width 0.4s linear;
+  margin-left: 0px;
+  margin-right: 0px;
+  }
+  /*fin buscar*/
+
+  #Navbar_logo_text{
+    color: white;
+  }
+  #height_Auto{
+    padding: 0px;
+    background-color: rgba(112, 112, 112, 0.315);
+}
