@@ -52,6 +52,15 @@
   .Button_Accion{
     font-size: 17px;
   }
+  .line {
+    border-top: 1px solid #082041;
+    display: block;
+    line-height: 1px;
+    margin: 15px 0px 0px 0px;
+    position: relative;
+    text-align: center;
+    border-top-width: 5px;
+}
 }
 #sectionPricipal{
   background-color: rgba(240, 240, 240,0.815);
