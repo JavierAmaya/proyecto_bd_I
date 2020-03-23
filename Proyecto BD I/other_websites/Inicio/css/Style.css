@@ -69,21 +69,21 @@
 .Button_Accion{
     margin-top: 5px;
     margin-bottom: 5px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255,0.98);
     border-radius: 7px;
     border-color: #082041;
     color: #082041;
 }
 .Button_Accion:hover{
-  background-color: #294162;
-  border-color: #294162;
+  background-color: rgb(255, 255, 255);
+  border-color: rgba(200, 200, 200, 1);
   color: rgb(255, 255, 255);
 }
 #sectionPricipal{
   margin-left: 25px;
   margin-right: 25px;
   border-left-width: 10px;
-  padding-left: 25px;
+  padding-left: 15px;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
   border-top-left-radius: 7px;
