@@ -57,12 +57,12 @@
             </div>
             <div class="mt-5">
                 <input type="button" value="Inicio " style="font-size:15px;" class="col-12 btn btn-lg Button_Accion">
-                <input type="button" value="Facturas Por Cobrar" style="font-size:15px;" class="col-12 btn btn-lg Button_Accion">
-                <input type="button" value="Facturas Por Pagar" style="font-size:15px;" class="col-12 btn btn-lg Button_Accion">
-                <input type="button" value="Empleados" style="font-size:15px;" class="col-12 btn btn-lg Button_Accion">
-                <input type="button" value="Proveedores" style="font-size:15px;" class="col-12 btn btn-lg Button_Accion"> 
-                <input type="button" value="Clientes" style="font-size:15px;" class="col-12 btn btn-lg Button_Accion"> 
-                <input type="button" value="Productos" style="font-size:15px;" class="col-12 btn btn-lg Button_Accion"> 
+                <input type="button" onclick="FacturasPorCobrar()" value="Facturas Por Cobrar" style="font-size:15px;" class="col-12 btn btn-lg Button_Accion">
+                <input type="button" onclick="FacturasPorPagar()" value="Facturas Por Pagar" style="font-size:15px;" class="col-12 btn btn-lg Button_Accion">
+                <input type="button" onclick="Empleados()" value="Empleados" style="font-size:15px;" class="col-12 btn btn-lg Button_Accion">
+                <input type="button" onclick="Proveedores()" value="Proveedores" style="font-size:15px;" class="col-12 btn btn-lg Button_Accion"> 
+                <input type="button" onclick="Clientes()" value="Clientes" style="font-size:15px;" class="col-12 btn btn-lg Button_Accion"> 
+                <input type="button" onclick="Productos()" value="Productos" style="font-size:15px;" class="col-12 btn btn-lg Button_Accion"> 
             </div>
             <div class="line"></div>
         </div>
@@ -75,13 +75,12 @@
                   </button>
                 </div>
              </div>
-
-            
-            
+            <div class="col-12" id="File_position"></div>
+            <div id="Contenido">
+            </div>
         </div>
     </div>
   </section>
- 
   <footer class="footer">
         
   </footer> 
