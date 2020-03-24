@@ -5,6 +5,9 @@
   #height_Auto{
       height: 960px;
   }
+  #List-style-bills-pay{
+    height: 830px;
+  }
   .Button_Accion{
     font-size: 20px;
   }
@@ -15,6 +18,9 @@
 }
   #height_Auto{
       height: 920px;
+  }
+  #List-style-bills-pay{
+    height: 782px;
   }
   .Button_Accion{
     font-size: 18px;
@@ -27,6 +33,9 @@
   #height_Auto{
       height: 890px;
   }
+  #List-style-bills-pay{
+    height: 715px;
+  }
   .Button_Accion{
     font-size: 17px;
   }
@@ -38,6 +47,9 @@
   #height_Auto{
       height: 920px;
   }
+  #List-style-bills-pay{
+    height: 742px;
+  }
   .Button_Accion{
     font-size: 12px;
   }
@@ -48,6 +60,9 @@
 }
   #height_Auto{
       height: 380px;
+  }
+  #List-style-bills-pay{
+    height: 400px;
   }
   .Button_Accion{
     font-size: 17px;
@@ -177,7 +192,7 @@ body,html{
 #color-tittle-list-bills-pay{background-color: rgba(255,255,255,1); margin-left: 0px;border-radius: 4px; margin-left: auto; margin-right: auto; width: 98%;}
 #color-descriptionA-list-bills-pay{background-color: rgba(240,240,240,1);margin-left: 0px;}
 #color-descriptionB-list-bills-pay{background-color: rgba(230,230,230,1);margin-left: 0px;}
-
+.Button-bills-provider{border: transparent;background-color: transparent;}
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
