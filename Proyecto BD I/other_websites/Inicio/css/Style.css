@@ -11,6 +11,7 @@
     .Button_Accion{
       font-size: 20px;
     }
+    .hide-information{display: none;}
   }
   @media  screen and (max-width: 1200px){
   .wrap{
@@ -25,6 +26,7 @@
     .Button_Accion{
       font-size: 18px;
     }
+    .hide-information{display: none;}
   }
   @media  screen and (max-width: 992px){
   .wrap{
@@ -53,6 +55,7 @@
     .Button_Accion{
       font-size: 12px;
     }
+    .hide-information{display: block;}
   }
   @media  screen and (max-width: 576px){
   .wrap{
@@ -75,7 +78,8 @@
       position: relative;
       text-align: center;
       border-top-width: 5px;
-  }
+    }
+    .hide-information{display: block;}
   }
   #sectionPricipal{
     background-color: rgba(240, 240, 240,0.815);
@@ -193,7 +197,15 @@
   #color-descriptionA-list-bills-pay{background-color: rgba(240,240,240,1);margin-left: 0px;}
   #color-descriptionB-list-bills-pay{background-color: rgba(230,230,230,1);margin-left: 0px;}
   .Button-bills-provider{border: transparent;background-color: transparent;}
-  
+  .color-contenido{background-color: white; border-radius: 5px; }
+  .margin-cero{width: 98%; margin-right: auto; margin-left: auto;}
+  .boder-list-bills-pay{border: 1px solid rgba(0,0,0,0.7); }
+  #color-description{background-color: white;margin-left: 0px; margin-right: 0px;}
+  #ProductsA{background-color: rgba(10, 10, 10,0.2); margin-left: 0px; margin-right: 0px;}
+  #ProductsB{background-color: rgba(190, 190, 190, 0.2); margin-left: 0px; margin-right: 0px;}
+  .text-list-products{text-align: right}
+  .Amount-Gross{background-color: white;border-color: transparent;font-size: 15px;}
+  .Amount-Gross-text{text-align: right;}
   @import url(https://fonts.googleapis.com/css?family=Open+Sans);
   
   body{
