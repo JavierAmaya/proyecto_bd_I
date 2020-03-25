@@ -76,93 +76,10 @@
                 </div>
              </div>
             <div class="col-12" id="File_position"></div>
-            <div class="col-12" id="File_position"><input type="button" value="Facturas Por Pagar" onclick="FacturasPorPagar()" class="File_accion"><span>/</span>
-                <input type="button" value="información Factura" onclick="infoBillsPay()" class="File_accion"></div>
+           
             <div id="Contenido">
                 <!--select name="" id="Impuesto-bills-pay"></select-->
-                <div class="color-contenido margin-cero">
-                    <div><h1 style=" text-align: center; ">Facturas Por Pagar </h1></div>
-                    <div class="margin-cero row">
-                        <div class="col-6"><h1>No. Facturas</h1></div>
-                        <div class="col-6"><h1 style=" text-align: end;">Proveedor</h1><div class="col-sm-8 col-md-8 col-lg-4 col-xl-2 col-12" style="display: block; margin-left:auto"><img src="../../src/img/User-Proveedor.jpg" width="100%" alt=""></div></div>
-                        
-                    </div>
-                    <div class="margin-cero col-12" style=" height: 500px;">
-                        <div class="col-12"><h1>Productos</h1></div>
-                        <div class="boder-list-bills-pay col-12 row" id="color-description">
-                            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-12"><h4>Producto</h4></div>
-                            <div class="col-sm-6  col-md-3  col-lg-2 col-xl-2 col-6 "><h4 class="text-list-products">Cantidad</h4></div>
-                            <div class="col-sm-6  col-md-3  col-lg-2 col-xl-2 col-6 "><h4 class="text-list-products">Precio Unitario</h4></div>
-                            <div class="col-sm-6  col-md-3  col-lg-2 col-xl-2 col-6 "><h4 class="text-list-products">ISV</h4></div>
-                            <div class="col-sm-6  col-md-3  col-lg-2 col-xl-2 col-6 "><h4 class="text-list-products">total</h4></div>
-                        </div>
-                        <div class="col-12 " id="Produts-generate-bills" style="margin-left: 0px; padding-left: 0px; padding-right: 0px;overflow: auto;">
-                            <div class="boder-list-bills-pay col-12 row Products-list" id="ProductsA">
-                                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-12"><h4 >cemento</h4></div>
-                                <div class="col-sm-6  col-md-3  col-lg-2 col-xl-2 col-6 "><h4 class="text-list-products">20</h4></div>
-                                <div class="col-sm-6  col-md-3  col-lg-2 col-xl-2 col-6 "><h4 class="text-list-products">240</h4></div>
-                                <div class="col-sm-6  col-md-3  col-lg-2 col-xl-2 col-6 "><select class="Select-tax-products text-list-products" style="font-size:15px; background-color: transparent;" name="" id="Impuesto-bills-pay"><option value="0">ISV</option><option value="1">EXECTO</option></select></div>
-                                <div class="col-sm-6  col-md-3  col-lg-2 col-xl-2 col-6 "><h4 class="text-list-products">4,800.00</h4></div>
-                            </div>
-                            <div class="boder-list-bills-pay col-12 row Products-list" id="ProductsB">
-                                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-12"><h4>Bloques</h4></div>
-                                <div class="col-sm-6  col-md-3  col-lg-2 col-xl-2 col-6" ><h4 class="text-list-products">1000</h4></div>
-                                <div class="col-sm-6  col-md-3  col-lg-2 col-xl-2 col-6" ><h4 class="text-list-products">40</h4></div>
-                                <div class="col-sm-6  col-md-3  col-lg-2 col-xl-2 col-6" ><select class="Select-tax-products text-list-products" style="font-size:15px; background-color: transparent;" name="" id="Impuesto-bills-pay"><option value="0">ISV</option><option value="1">EXECTO</option></select></div>
-                                <div class="col-sm-6  col-md-3  col-lg-2 col-xl-2 col-6" ><h4 class="text-list-products">4,000.00</h4></div>
-                            </div>
-                            <div class="boder-list-bills-pay col-12 row Products-list" id="ProductsA">
-                                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-12"><h4 >Arena</h4></div>
-                                <div class="col-sm-6  col-md-3  col-lg-2 col-xl-2 col-6 "><h4 class="text-list-products">300</h4></div>
-                                <div class="col-sm-6  col-md-3  col-lg-2 col-xl-2 col-6 "><h4 class="text-list-products">3</h4></div>
-                                <div class="col-sm-6  col-md-3  col-lg-2 col-xl-2 col-6 "><select class="Select-tax-products text-list-products" style="font-size:15px; background-color: transparent;" name="" id="Impuesto-bills-pay"><option value="0">ISV</option><option value="1">EXECTO</option></select></div>
-                                <div class="col-sm-6  col-md-3  col-lg-2 col-xl-2 col-6 "><h4 class="text-list-products">900.00</h4></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="line-contenido"></div>
-                    <div class="col-12" style=" height: 100px;">
-                        <textarea style="font-size: 15px; width: -webkit-fill-available; height: -webkit-fill-available; " name="" placeholder="Observaciones" id="observations-bills-pay" ></textarea>
-                    </div>
-                    <div class="line-contenido"></div>
-                    <div class="col-12 row">
-                        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-12 row" style=" height: 27px; ">
-                            <h2 class="col-6">Anticipo</h2>
-                            <input class="col-6" type="text" name="" value="2,0000.00" id="Anticipo" style="font-size: 15px;">
-                        </div>
-                        <!--div class="line"></div-->
-                        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-5 col-12 " style=" margin-left: auto; ">
-                            <div class="col-12 hide-information">
-                                <br>
-                                <hr>
-                                <br>
-                            </div>
-                            <div class="col-12 row">
-                                <h2 class="col-6 Amount-Gross-text">Anticipo</h2>
-                                <input class="col-6 Amount-Gross" type="text" value="2,0000.00" disabled name="">
-                            </div>
-                            <div class="col-12 row">
-                                <h2 class="col-6 Amount-Gross-text">SubTotal</h2>
-                                <input class="col-6 Amount-Gross" type="text" value="7,700.00" disabled name="">
-                            </div>
-                            <div class="col-12 row">
-                                <h2 class="col-6 Amount-Gross-text">Impuesto</h2>
-                                <input class="col-6 Amount-Gross" type="text" value="1,320.00" disabled name="">
-                            </div>
-                            <div class="col-12 row">
-                                <h2 class="col-6 Amount-Gross-text">Total</h2>
-                                <input class="col-6 Amount-Gross" type="text" value="8,380.00" disabled name="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="line-contenido"></div>
-                    <div class="col-12" style="padding-bottom: 15px;height: 45px;">
-                        <div class="col-sm-12  col-md-10  col-lg-8 col-xl-4 col-10 row" style=" margin-left: auto;margin-top: 5px;">
-                            <input style="font-size: 15px;" class="col-6 btn btn-outline-primary" type="button" value="Guardar Cambios">
-                            <input style="font-size: 15px;" class="col-6 btn btn-outline-secondary" type="button" value="Cancelar">
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </div>

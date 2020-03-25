@@ -91,8 +91,7 @@ function infoBillsPay(){
         <div><h1 style=" text-align: center; ">Facturas Por Pagar </h1></div>
         <div class="margin-cero row">
             <div class="col-6"><h1>No. Facturas</h1></div>
-            <div class="col-6"><h1 style=" text-align: end;">Proveedor</h1><div class="col-2" style="margin-left:auto"><img src="../../src/img/User-Proveedor.jpg" width="100%" alt=""></div></div>
-            
+            <div class="col-6"><h1 style=" text-align: end;">Proveedor</h1><div class="col-sm-8 col-md-8 col-lg-4 col-xl-2 col-12" id="foto-proveedor"><img src="../../src/img/User-Proveedor.jpg" width="100%" alt=""></div></div>
         </div>
         <div class="margin-cero col-12" style=" height: 500px;">
             <div class="col-12"><h1>Productos</h1></div>
