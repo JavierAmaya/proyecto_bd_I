@@ -85,5 +85,6 @@ function infoBillsPay(){
         <input type="button" value="información Factura" onclick="infoBillsPay()" class="File_accion">
     `));
     $('#Contenido').html($(`
+        
     `))
 }
