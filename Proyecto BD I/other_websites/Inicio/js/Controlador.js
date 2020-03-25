@@ -1,6 +1,7 @@
 $(document).ready(function(){
     
 });
+
 function FacturasPorCobrar(){
     $('#File_position').html($(`
         <input type="button" value="Facturas Por Cobrar" class="File_accion">
@@ -79,6 +80,7 @@ function Productos(){
     `))
 }
 function infoBillsPay(){
+    
     FacturasPorPagar();
     $('#File_position').append($(`
         <span>/</span>
@@ -89,7 +91,8 @@ function infoBillsPay(){
         <div><h1 style=" text-align: center; ">Facturas Por Pagar </h1></div>
         <div class="margin-cero row">
             <div class="col-6"><h1>No. Facturas</h1></div>
-            <div class="col-6"><h1 style=" text-align: end;">Proveedor</h1></div>
+            <div class="col-6"><h1 style=" text-align: end;">Proveedor</h1><div class="col-2" style="margin-left:auto"><img src="../../src/img/User-Proveedor.jpg" width="100%" alt=""></div></div>
+            
         </div>
         <div class="margin-cero col-12" style=" height: 500px;">
             <div class="col-12"><h1>Productos</h1></div>
@@ -105,15 +108,22 @@ function infoBillsPay(){
                     <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-12"><h4 style="">cemento</h4></div>
                     <div class="col-sm-6  col-md-3  col-lg-2 col-xl-2 col-6 "><h4 class="text-list-products">20</h4></div>
                     <div class="col-sm-6  col-md-3  col-lg-2 col-xl-2 col-6 "><h4 class="text-list-products">240</h4></div>
-                    <div class="col-sm-6  col-md-3  col-lg-2 col-xl-2 col-6 "><h4 class="text-list-products">720.00</h4></div>
+                    <div class="col-sm-6  col-md-3  col-lg-2 col-xl-2 col-6 "><select class="Select-tax-products text-list-products" style="font-size:15px; background-color: transparent;" name="" id="Impuesto-bills-pay"><option value="0">ISV</option><option value="1">EXECTO</option></select></div>
                     <div class="col-sm-6  col-md-3  col-lg-2 col-xl-2 col-6 "><h4 class="text-list-products">4,800.00</h4></div>
                 </div>
                 <div class="boder-list-bills-pay col-12 row Products-list" id="ProductsB">
                     <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-12"><h4>Bloques</h4></div>
                     <div class="col-sm-6  col-md-3  col-lg-2 col-xl-2 col-6" ><h4 class="text-list-products">1000</h4></div>
                     <div class="col-sm-6  col-md-3  col-lg-2 col-xl-2 col-6" ><h4 class="text-list-products">40</h4></div>
-                    <div class="col-sm-6  col-md-3  col-lg-2 col-xl-2 col-6" ><h4 class="text-list-products">600.00</h4></div>
+                    <div class="col-sm-6  col-md-3  col-lg-2 col-xl-2 col-6" ><select class="Select-tax-products text-list-products" style="font-size:15px; background-color: transparent;" name="" id="Impuesto-bills-pay"><option value="0">ISV</option><option value="1">EXECTO</option></select></div>
                     <div class="col-sm-6  col-md-3  col-lg-2 col-xl-2 col-6" ><h4 class="text-list-products">4,000.00</h4></div>
+                </div>
+                <div class="boder-list-bills-pay col-12 row Products-list" id="ProductsA">
+                    <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-12"><h4 style="">Arena</h4></div>
+                    <div class="col-sm-6  col-md-3  col-lg-2 col-xl-2 col-6 "><h4 class="text-list-products">300</h4></div>
+                    <div class="col-sm-6  col-md-3  col-lg-2 col-xl-2 col-6 "><h4 class="text-list-products">3</h4></div>
+                    <div class="col-sm-6  col-md-3  col-lg-2 col-xl-2 col-6 "><select class="Select-tax-products text-list-products" style="font-size:15px; background-color: transparent;" name="" id="Impuesto-bills-pay"><option value="0">ISV</option><option value="1">EXECTO</option></select></div>
+                    <div class="col-sm-6  col-md-3  col-lg-2 col-xl-2 col-6 "><h4 class="text-list-products">900.00</h4></div>
                 </div>
             </div>
         </div>
@@ -140,7 +150,7 @@ function infoBillsPay(){
                 </div>
                 <div class="col-12 row">
                     <h2 class="col-6 Amount-Gross-text">SubTotal</h2>
-                    <input class="col-6 Amount-Gross" type="text" value="7,480.00" disabled name="">
+                    <input class="col-6 Amount-Gross" type="text" value="7,700.00" disabled name="">
                 </div>
                 <div class="col-12 row">
                     <h2 class="col-6 Amount-Gross-text">Impuesto</h2>
@@ -148,7 +158,7 @@ function infoBillsPay(){
                 </div>
                 <div class="col-12 row">
                     <h2 class="col-6 Amount-Gross-text">Total</h2>
-                    <input class="col-6 Amount-Gross" type="text" value="6,800.00" disabled name="">
+                    <input class="col-6 Amount-Gross" type="text" value="8,380.00" disabled name="">
                 </div>
             </div>
         </div>
@@ -161,4 +171,11 @@ function infoBillsPay(){
         </div>
     </div>
     `))
+    var Impuesto = ["ISV","EXECTO"];
+    $('#Impuesto-bills-pay').html($(``))
+    for(var i=0; i<Impuesto.length;i++){
+        $('#Impuesto-bills-pay').append($(`
+            <option value="${i}">${Impuesto[i]}</option>
+        `))
+    };
 }

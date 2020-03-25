@@ -1,9 +1,7 @@
 @media  screen and (min-width: 1200px){
-  .wrap{
-    width: 70%;
-  }
+  .wrap{width: 70%;}
     #height_Auto{
-        height: 960px;
+        height: 1007px;
     }
     #List-style-bills-pay{
       height: 830px;
@@ -18,7 +16,7 @@
     width: 100%;
   }
     #height_Auto{
-        height: 920px;
+        height: 1007px;
     }
     #List-style-bills-pay{
       height: 782px;
@@ -33,7 +31,7 @@
     width: 100%;
   }
     #height_Auto{
-        height: 890px;
+        height: 1067px;
     }
     #List-style-bills-pay{
       height: 715px;
@@ -47,7 +45,7 @@
     width: 100%;
   }
     #height_Auto{
-        height: 920px;
+        height: 1087px;
     }
     #List-style-bills-pay{
       height: 742px;
@@ -62,7 +60,7 @@
     width: 100%;
   }
     #height_Auto{
-        height: 380px;
+        height: 397px;
     }
     #List-style-bills-pay{
       height: 400px;
@@ -204,14 +202,12 @@
   #ProductsA{background-color: rgba(10, 10, 10,0.2); margin-left: 0px; margin-right: 0px;}
   #ProductsB{background-color: rgba(190, 190, 190, 0.2); margin-left: 0px; margin-right: 0px;}
   .text-list-products{text-align: right}
+  .Select-tax-products{display: block; margin-left: auto;}
   .Amount-Gross{background-color: white;border-color: transparent;font-size: 15px;}
   .Amount-Gross-text{text-align: right;}
   @import url(https://fonts.googleapis.com/css?family=Open+Sans);
   
-  body{
-    background: #f2f2f2;
-    font-family: 'Open Sans', sans-serif;
-  }
+  body{background: #f2f2f2;font-family: 'Open Sans', sans-serif;}
   
   .search {
     width: 100%;
