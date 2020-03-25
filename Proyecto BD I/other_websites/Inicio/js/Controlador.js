@@ -119,7 +119,7 @@ function infoBillsPay(){
         </div>
         <div class="line-contenido"></div>
         <div class="col-12" style=" height: 100px;">
-            <textarea style=" width: -webkit-fill-available; height: -webkit-fill-available; " name="" placeholder="Observaciones" id="observations-bills-pay" ></textarea>
+            <textarea style="font-size: 15px; width: -webkit-fill-available; height: -webkit-fill-available; " name="" placeholder="Observaciones" id="observations-bills-pay" ></textarea>
         </div>
         <div class="line-contenido"></div>
         <div class="col-12 row">
