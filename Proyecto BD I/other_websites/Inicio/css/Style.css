@@ -1,241 +1,241 @@
 @media  screen and (min-width: 1200px){
-.wrap{
-  width: 70%;
-}
-  #height_Auto{
-      height: 960px;
+  .wrap{
+    width: 70%;
   }
-  #List-style-bills-pay{
-    height: 830px;
+    #height_Auto{
+        height: 960px;
+    }
+    #List-style-bills-pay{
+      height: 830px;
+    }
+    .Button_Accion{
+      font-size: 20px;
+    }
+  }
+  @media  screen and (max-width: 1200px){
+  .wrap{
+    width: 100%;
+  }
+    #height_Auto{
+        height: 920px;
+    }
+    #List-style-bills-pay{
+      height: 782px;
+    }
+    .Button_Accion{
+      font-size: 18px;
+    }
+  }
+  @media  screen and (max-width: 992px){
+  .wrap{
+    width: 100%;
+  }
+    #height_Auto{
+        height: 890px;
+    }
+    #List-style-bills-pay{
+      height: 715px;
+    }
+    .Button_Accion{
+      font-size: 17px;
+    }
+  }
+  @media  screen and (max-width: 768px){
+  .wrap{
+    width: 100%;
+  }
+    #height_Auto{
+        height: 920px;
+    }
+    #List-style-bills-pay{
+      height: 742px;
+    }
+    .Button_Accion{
+      font-size: 12px;
+    }
+  }
+  @media  screen and (max-width: 576px){
+  .wrap{
+    width: 100%;
+  }
+    #height_Auto{
+        height: 380px;
+    }
+    #List-style-bills-pay{
+      height: 400px;
+    }
+    .Button_Accion{
+      font-size: 17px;
+    }
+    .line {
+      border-top: 1px solid #082041;
+      display: block;
+      line-height: 1px;
+      margin: 15px 0px 0px 0px;
+      position: relative;
+      text-align: center;
+      border-top-width: 5px;
+  }
+  }
+  #sectionPricipal{
+    background-color: rgba(240, 240, 240,0.815);
+  }
+  #NavbarConfi{
+    background-color: rgb(8, 32, 65);
+    margin-bottom: 2px;
+  }
+  #Option_config{
+    margin-right: 60px;
+  }
+  #dropdownMenuButton{
+    background-color: rgb(8, 32, 65);
   }
   .Button_Accion{
+      margin-top: 5px;
+      margin-bottom: 5px;
+      background-color: rgba(255, 255, 255,0.98);
+      border-radius: 7px;
+      border-color: #082041;
+      color: #082041;
+  }
+  .Button_Accion:hover{
+    background-color: rgb(255, 255, 255);
+    border-color: rgba(200, 200, 200, 1);
+    color: rgb(255, 255, 255);
+  }
+  #sectionPricipal{
+    margin-left: 25px;
+    margin-right: 25px;
+    border-left-width: 10px;
+    padding-left: 15px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+  }
+  #row_confi{
+      border-bottom-left-radius: 7px;
+      border-bottom-right-radius: 7px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+  }
+  /* botton de buscar*/
+  body,html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /*background: #e74c3c !important;*/
+    }
+    .searchbar{
+    margin-bottom: auto;
+    margin-top: 2px;
+    height: 60px;
+    background-color: #353b48;
+    border-radius: 30px;
+    padding: 10px;
+    margin-left: auto;
+    }
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.5s linear;
+    }
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 450px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    margin-left: 0px;
+    margin-right: 0px;
+    }
+    /*fin buscar*/
+  
+    #Navbar_logo_text{
+      color: white;
+    }
+    #height_Auto{
+      padding: 0px;
+      background-color: rgba(112, 112, 112, 0.315);
+  }
+  .File_accion{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: transparent;
+    border: transparent;
+  }
+  #File_position{
     font-size: 20px;
   }
-}
-@media  screen and (max-width: 1200px){
-.wrap{
-  width: 100%;
-}
-  #height_Auto{
-      height: 920px;
-  }
-  #List-style-bills-pay{
-    height: 782px;
-  }
-  .Button_Accion{
-    font-size: 18px;
-  }
-}
-@media  screen and (max-width: 992px){
-.wrap{
-  width: 100%;
-}
-  #height_Auto{
-      height: 890px;
-  }
-  #List-style-bills-pay{
-    height: 715px;
-  }
-  .Button_Accion{
-    font-size: 17px;
-  }
-}
-@media  screen and (max-width: 768px){
-.wrap{
-  width: 100%;
-}
-  #height_Auto{
-      height: 920px;
-  }
-  #List-style-bills-pay{
-    height: 742px;
-  }
-  .Button_Accion{
-    font-size: 12px;
-  }
-}
-@media  screen and (max-width: 576px){
-.wrap{
-  width: 100%;
-}
-  #height_Auto{
-      height: 380px;
-  }
-  #List-style-bills-pay{
-    height: 400px;
-  }
-  .Button_Accion{
-    font-size: 17px;
-  }
-  .line {
+  .line-contenido{
     border-top: 1px solid #082041;
     display: block;
     line-height: 1px;
-    margin: 15px 0px 0px 0px;
-    position: relative;
     text-align: center;
-    border-top-width: 5px;
-}
-}
-#sectionPricipal{
-  background-color: rgba(240, 240, 240,0.815);
-}
-#NavbarConfi{
-  background-color: rgb(8, 32, 65);
-  margin-bottom: 2px;
-}
-#Option_config{
-  margin-right: 60px;
-}
-#dropdownMenuButton{
-  background-color: rgb(8, 32, 65);
-}
-.Button_Accion{
-    margin-top: 5px;
-    margin-bottom: 5px;
-    background-color: rgba(255, 255, 255,0.98);
-    border-radius: 7px;
-    border-color: #082041;
-    color: #082041;
-}
-.Button_Accion:hover{
-  background-color: rgb(255, 255, 255);
-  border-color: rgba(200, 200, 200, 1);
-  color: rgb(255, 255, 255);
-}
-#sectionPricipal{
-  margin-left: 25px;
-  margin-right: 25px;
-  border-left-width: 10px;
-  padding-left: 15px;
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
-  border-top-left-radius: 7px;
-  border-top-right-radius: 7px;
-}
-#row_confi{
-    border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-}
-/* botton de buscar*/
-body,html{
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  /*background: #e74c3c !important;*/
+    border-top-width: 3px;
+    margin-left: auto; margin-right: auto; width: 98%;
   }
-  .searchbar{
-  margin-bottom: auto;
-  margin-top: 2px;
-  height: 60px;
-  background-color: #353b48;
-  border-radius: 30px;
-  padding: 10px;
-  margin-left: auto;
+  #contenido{
+    margin-right: 9px; 
+    margin-left: 4px;
   }
-  .search_input{
-  color: white;
-  border: 0;
-  outline: 0;
-  background: none;
-  width: 0;
-  caret-color:transparent;
-  line-height: 40px;
-  transition: width 0.5s linear;
+  .sizeLetters{
+    font-size: 16px;
+    COLOR: #082041;
   }
-  .searchbar:hover > .search_input{
-  padding: 0 10px;
-  width: 450px;
-  caret-color:red;
-  transition: width 0.4s linear;
-  margin-left: 0px;
-  margin-right: 0px;
+  #List-style-bills-pay{padding-left: 0px; padding-right: 0px; overflow: auto; margin-left: auto; margin-right: auto; width: 98%;}
+  #color-tittle-list-bills-pay{background-color: rgba(255,255,255,1); margin-left: 0px;border-radius: 4px; margin-left: auto; margin-right: auto; width: 98%;}
+  #color-descriptionA-list-bills-pay{background-color: rgba(240,240,240,1);margin-left: 0px;}
+  #color-descriptionB-list-bills-pay{background-color: rgba(230,230,230,1);margin-left: 0px;}
+  .Button-bills-provider{border: transparent;background-color: transparent;}
+  
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+  
+  body{
+    background: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
   }
-  /*fin buscar*/
-
-  #Navbar_logo_text{
-    color: white;
+  
+  .search {
+    width: 100%;
+    position: relative;
+    display: flex;
   }
-  #height_Auto{
-    padding: 0px;
-    background-color: rgba(112, 112, 112, 0.315);
-}
-.File_accion{
-  font-size: 20px;
-  font-weight: 600;
-  background-color: transparent;
-  border: transparent;
-}
-#File_position{
-  font-size: 20px;
-}
-.line-contenido{
-  border-top: 1px solid #082041;
-  display: block;
-  line-height: 1px;
-  text-align: center;
-  border-top-width: 3px;
-  margin-left: auto; margin-right: auto; width: 98%;
-}
-#contenido{
-  margin-right: 9px; 
-  margin-left: 4px;
-}
-.sizeLetters{
-  font-size: 16px;
-  COLOR: #082041;
-}
-#List-style-bills-pay{padding-left: 0px; padding-right: 0px; overflow: auto; margin-left: auto; margin-right: auto; width: 98%;}
-#color-tittle-list-bills-pay{background-color: rgba(255,255,255,1); margin-left: 0px;border-radius: 4px; margin-left: auto; margin-right: auto; width: 98%;}
-#color-descriptionA-list-bills-pay{background-color: rgba(240,240,240,1);margin-left: 0px;}
-#color-descriptionB-list-bills-pay{background-color: rgba(230,230,230,1);margin-left: 0px;}
-.Button-bills-provider{border: transparent;background-color: transparent;}
-
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
-body{
-  background: #f2f2f2;
-  font-family: 'Open Sans', sans-serif;
-}
-
-.search {
-  width: 100%;
-  position: relative;
-  display: flex;
-}
-
-.searchTerm {
-  width: 100%;
-  border: 3px solid rgb(8, 32, 65);
-  border-right: none;
-  padding: 5px;
-  border-radius: 5px 0 0 5px;
-  outline: none;
-  color: #9DBFAF;
-}
-
-.searchTerm:focus{
-  color: rgb(8, 32, 65);
-}
-
-.searchButton {
-  width: 40px;
-  height: 36px;
-  border: 1px solid rgb(8, 32, 65);
-  background: rgb(8, 32, 65);
-  text-align: center;
-  color: #fff;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
-  font-size: 20px;
-}
-
-/*Resize the wrap to see the search bar change!*/
-.wrap{
-    margin-left: auto;
-    margin-top: 10px;
-    margin-right: 2px;
-}
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid rgb(8, 32, 65);
+    border-right: none;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+    color: rgb(8, 32, 65);
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid rgb(8, 32, 65);
+    background: rgb(8, 32, 65);
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /*Resize the wrap to see the search bar change!*/
+  .wrap{
+      margin-left: auto;
+      margin-top: 10px;
+      margin-right: 2px;
+  }
