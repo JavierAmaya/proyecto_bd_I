@@ -5,6 +5,17 @@
     color: white;
 }
 
+.content-card{
+    text-align: center;
+}
+.item-menu{
+    width: 47%;
+}
+
+.btn-cards{
+    margin-top: 20px;
+
+}
 .my_car{
     background-color: #00000094;
     color: white;
