@@ -62,7 +62,7 @@
   #Option_config{margin-right: 60px;}
   #dropdownMenuButton{background-color: rgb(8, 32, 65);}
   .Button_Accion{margin-top: 5px;margin-bottom: 5px;background-color: rgba(255, 255, 255,0.98);border-radius: 7px;border-color: #082041;color: #082041;}
-  .Button_Accion:hover{background-color: rgb(255, 255, 255);border-color: rgba(200, 200, 200, 1);color: rgb(255, 255, 255);}
+  .Button_Accion:hover{background-color: rgb(47, 29, 94);border-color: rgb(47, 29, 94);color: rgb(255, 255, 255);}
   #sectionPricipal{margin-left: 25px;margin-right: 25px;border-left-width: 10px;padding-left: 15px;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-top-left-radius: 7px;border-top-right-radius: 7px;}
   #row_confi{border-bottom-left-radius: 7px;border-bottom-right-radius: 7px;padding-right: 10px;padding-bottom: 10px;}
   /* botton de buscar*/
