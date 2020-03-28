@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inicios</title>
+    <link rel="estilo-boostrap" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" type=" text/css" media="screen" href="css/Style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css" crossorigin="anonymous">
+    <script src="../../js/bootstrap.min.js" crossorigin="anonymous">
+    </script><script src="https://kit.fontawesome.com/bd816e089d.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <style>
+        #body_confi{
+            background-image: url(../../src/img/wall.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        </style>
+</head>
+<body id="body_confi">
+    <header>
+        <nav style="background-color: #110533;color: white" class=" navbar navbar-expand-lg navbar-dark">
+          <div class="navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav mr-auto">
+               <li class="nav-item active">
+                   <a class="navbar-brand anchor_navbar" href="../../index.html">
+                     <img src="../../src/img/ferreteria logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+                     Ferreteria La Union
+                   </a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="other_websites/Inicio/index.html">Inventario</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="#">Cliente</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="#">Link</a>
+               </li>
+              
+             </ul>
+          </div>
+        </nav>
+    </header>
+
+  <section class="Container-fluid mt-4 mb-4" id="sectionPricipal">
+    <div class="row" id="row_confi">
+        <div class="col-sm-4 col-md-4 col-lg-3 col-xl-2 col-12 var-left" style="padding-left: 0px; padding-right: 0px;">
+            <div class="col-12">
+                <!--img src="../../img/icon/1.png" alt="" width="100%"-->
+            </div>
+            <div class="text-center mt-5 item-var-left">
+                <h5 style="font-size: 25px;">Contabilidad</h5>
+            </div>
+            <div class="mt-5">
+                <input type="button" onclick="FacturasPorCobrar()" value="Facturas Por Cobrar" style="font-size:15px; color:white;" class="col-12 btn btn-lg Button_Accion ">
+                <input type="button" onclick="FacturasPorPagar()" value="Facturas Por Pagar" style="font-size:15px; color:white;" class="col-12 btn btn-lg Button_Accion ">
+                <input type="button" onclick="Proveedores()" value="Proveedores" style="font-size:15px; color:white;" class="col-12 btn btn-lg Button_Accion "> 
+                <input type="button" onclick="Clientes()" value="Clientes" style="font-size:15px; color:white;" class="col-12 btn btn-lg Button_Accion "> 
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="col-sm-8 col-md-8 col-lg-9 col-xl-10 col-12" id="height_Auto">
+            <div class="wrap mr-4">
+                <div class="search" style="font-size: auto;">
+                   <input type="text" class="searchTerm" placeholder="Buscador">
+                   <button type="submit" class="searchButton">
+                     <i class="fa fa-search"></i>
+                  </button>
+                </div>
+             </div>
+            <div class="col-12" id="File_position"></div>
+            <div id="Contenido">
+                <!--select name="" id="Impuesto-bills-pay"></select-->
+                
+            </div>
+        </div>
+    </div>
+  </section>
+  <footer class="footer">
+        
+  </footer> 
+      
+    <script src="../../js/jquery-3.4.1.min.js"></script>
+    <script src="../../js/bootstrap.js"></script>
+    <script src="js/controlador.js"></script>
+    <script src="../../js/bootstrap.bundle.js"></script>
+    <script src="../../js/util.js"></script>
+</body>
+</html>
