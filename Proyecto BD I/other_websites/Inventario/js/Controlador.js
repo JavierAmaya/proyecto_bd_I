@@ -10,7 +10,7 @@ function Productos(){
     $('#Contenido').html($(`
         <div class="row" id="C´-Prducts" style=" margin-left: auto; margin-right: auto; width: 98%; "style=" margin-left: auto; margin-right: auto; width: 98%; ">
             <div class=" col-12" id="C-Products">
-                <div class="col-sm-12 col-md-4 col-lg-3 col-xl-2 col-12 Div-Products" onclick="InfoProducts()">
+                <div class="col-sm-12 col-md-4 col-lg-3 col-xl-2 col-12 Div-Products" onclick="InfoProducts()" style="margin-left: 0px; margin-right: 0px;">
                     <img class="col-12" src="../../src/img/products.png" style="width: 100%;" alt="">
                     <p class="TxtNameProducts">Nombre Producto</p>
                     <p class="TxtinfoProducts">Casa Distribuidora</p>
