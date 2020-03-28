@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Inicios</title>
+    <title>Proveedores</title>
     <link rel="estilo-boostrap" href="../../css/bootstrap.min.css">
     <link rel="stylesheet" type=" text/css" media="screen" href="css/Style.css">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -56,10 +56,10 @@
                 <!--img src="../../img/icon/1.png" alt="" width="100%"-->
             </div>
             <div class="text-center mt-5 item-var-left">
-                <h5 style="font-size: 25px;">Proveedores</h5>
+                <h5 style="font-size: 25px;">Cliente</h5>
             </div>
             <div class="mt-5">
-                <input type="button" onclick="Proveedores()" value="Proveedores" style="font-size:15px; color:white;" class="col-12 btn btn-lg Button_Accion "> 
+                <input type="button" onclick="location.reload()" value="Proveedores" style="font-size:15px; color:white;" class="col-12 btn btn-lg Button_Accion "> 
             </div>
             <div class="line"></div>
         </div>
@@ -72,10 +72,41 @@
                   </button>
                 </div>
              </div>
-            <div class="col-12" id="File_position"></div>
+            <div class="col-12" id="File_position">
+                <input type="button" value="Proveedores" onclick="location.reload()" class="File_accion">
+            </div>
             <div id="Contenido">
-                
-                
+                <div class="" id="C´-Products" style=" margin-left: auto; margin-right: auto; width: 98%; ">
+                    <div class=" col-12 row" id="C-Productss" style="padding-left: 25px;">
+                        <div class="col-sm-12 col-md-4 col-lg-3 col-xl-4 col-12 Div-Products row" onclick="ProviderInformation()" style="margin-left: 0px; margin-right: 0px;">
+                            <img class="col-4" src="../../src/img/products.png" style="width: 100%;" alt="">
+                            <div class="col-8">
+                                <p class="col-12 TxtNameProducts">Name Proveedor</p>
+                                <p class="col-12 TxtinfoProducts">Email</p>
+                                <p class="col-12 TxtinfoProducts">Phone</p>
+                            </div>
+                            <p class="TxtinfoProducts">direction</p>
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-lg-3 col-xl-4 col-12 Div-Products row" onclick="ProviderInformation()" style="margin-left: 0px; margin-right: 0px;">
+                            <img class="col-4" src="../../src/img/products.png" style="width: 100%;" alt="">
+                            <div class="col-8">
+                                <p class="col-12 TxtNameProducts">Truper</p>
+                                <p class="col-12 TxtinfoProducts">Truper@gmail.org</p>
+                                <p class="col-12 TxtinfoProducts">87847582</p>
+                            </div>
+                            <p class="TxtinfoProducts">Brasil</p>
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-lg-3 col-xl-4 col-12 Div-Products row" onclick="ProviderInformation()" style="margin-left: 0px; margin-right: 0px;">
+                            <img class="col-4" src="../../src/img/products.png" style="width: 100%;" alt="">
+                            <div class="col-8">
+                                <p class="col-12 TxtNameProducts">Name Proveedor</p>
+                                <p class="col-12 TxtinfoProducts">Email</p>
+                                <p class="col-12 TxtinfoProducts">Phone</p>
+                            </div>
+                            <p class="TxtinfoProducts">direction</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
