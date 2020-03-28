@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inicios</title>
+    <link rel="estilo-boostrap" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" type=" text/css" media="screen" href="css/Style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css" crossorigin="anonymous">
+    <script src="../../js/bootstrap.min.js" crossorigin="anonymous">
+    </script><script src="https://kit.fontawesome.com/bd816e089d.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <style>
+        #body_confi{
+            background-image: url(../../src/img/wall.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        </style>
+</head>
+<body id="body_confi">
+    <header>
+        <nav style="background-color: #110533;color: white" class=" navbar navbar-expand-lg navbar-dark">
+          <div class="navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav mr-auto">
+               <li class="nav-item active">
+                   <a class="navbar-brand anchor_navbar" href="../../index.html">
+                     <img src="../../src/img/ferreteria logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+                     Ferreteria La Union
+                   </a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="other_websites/Inicio/index.html">Inventario</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="#">Cliente</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="#">Link</a>
+               </li>
+              
+             </ul>
+          </div>
+        </nav>
+    </header>
+
+  <section class="Container-fluid mt-4 mb-4" id="sectionPricipal">
+    <div class="row" id="row_confi">
+        <div class="col-sm-4 col-md-4 col-lg-3 col-xl-2 col-12 var-left" style="padding-left: 0px; padding-right: 0px;">
+            <div class="col-12">
+                <!--img src="../../img/icon/1.png" alt="" width="100%"-->
+            </div>
+            <div class="text-center mt-5 item-var-left">
+                <h5 style="font-size: 25px;">Contabilidad</h5>
+            </div>
+            <div class="mt-5">
+                <a href="facturas-x-cobrar.html" style="font-size:15px; color:white;" class="col-12 btn btn-lg Button_Accion ">Facturas Por Cobrar</a>
+                <a href="facturas-x-pagar.html" style="font-size:15px; color:white;" class="col-12 btn btn-lg Button_Accion ">Facturas Por Pagar</a>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="col-sm-8 col-md-8 col-lg-9 col-xl-10 col-12" id="height_Auto">
+            <div class="wrap mr-4">
+                <div class="search" style="font-size: auto;">
+                   <input type="text" class="searchTerm" placeholder="Buscador">
+                   <button type="submit" class="searchButton">
+                     <i class="fa fa-search"></i>
+                  </button>
+                </div>
+             </div>
+            <div class="col-12" id="File_position"></div>
+            <div id="Contenido" class="pr-2 pl-1">
+                <h1 class="File_accion ml-3">Facturas por Cobrar</h1>
+                
+                <table class="table table-bordered mt-3">
+                    <thead id="color-tittle-list-bills-pay">
+                        <tr class="text-center">
+                            <th>Nombre de Proveedor</th>
+                            <th>Facturas</th>
+                            <th>Fecha Emitida</th>
+                            <th>Fecha Limite</th>
+                            <th>Estado</th>
+                            <th>Monto</th>
+                            <th>ISV</th>
+                        </tr>
+                    </thead>
+                    <tbody id="color-descriptionA-list-bills-pay" class="text-center">
+                        <tr>
+                            <td><input type="button" onclick="infoBillsPay()" class="sizeLetters Button-bills-provider" Value="Truper"></td>
+                            <td><input type="button" onclick="infoBillsPay()" class="sizeLetters Button-bills-provider" Value="00000102001"></td>
+                            <td><h2 class="sizeLetters">11/01/2020</h2></td>
+                            <td><h2 class="sizeLetters">26/01/2020</h2></td>
+                            <td><h2 class="sizeLetters">Pagado</h2></td>
+                            <td><h2 class="sizeLetters">10,582.50</h2></td>
+                            <td><h2 class="sizeLetters">1,587.37</h2></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" onclick="infoBillsPay()" class="sizeLetters Button-bills-provider" Value="CementosX"></td>
+                            <td><input type="button" onclick="infoBillsPay()" class="sizeLetters Button-bills-provider" Value="00000102002"></td>
+                            <td><h2 class="sizeLetters">12/03/2020</h2></td>
+                            <td><h2 class="sizeLetters">12/04/2020</h2></td>
+                            <td><h2 class="sizeLetters">Pendiente</h2></td>
+                            <td><h2 class="sizeLetters">25,785.30</h2></td>
+                            <td><h2 class="sizeLetters">3,867.79</h2></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="text-right mr-2">
+                    <button class="btn btn-lg btn-primary rounded-circle"> <i class="fa fa-plus"></i> </button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+  </section>
+  <footer class="footer">
+        
+  </footer> 
+      
+    <script src="../../js/jquery-3.4.1.min.js"></script>
+    <script src="../../js/bootstrap.js"></script>
+    <script src="js/controlador.js"></script>
+    <script src="../../js/bootstrap.bundle.js"></script>
+    <script src="../../js/util.js"></script>
+</body>
+</html>
