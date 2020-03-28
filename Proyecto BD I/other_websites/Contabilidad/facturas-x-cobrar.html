@@ -80,13 +80,12 @@
                 <table class="table table-bordered mt-3">
                     <thead id="color-tittle-list-bills-pay">
                         <tr class="text-center">
-                            <th>Nombre de Proveedor</th>
-                            <th>Facturas</th>
+                            <th>Cliente</th>
+                            <th>Factura</th>
                             <th>Fecha Emitida</th>
                             <th>Fecha Limite</th>
                             <th>Estado</th>
                             <th>Monto</th>
-                            <th>ISV</th>
                         </tr>
                     </thead>
                     <tbody id="color-descriptionA-list-bills-pay" class="text-center">
@@ -97,7 +96,6 @@
                             <td><h2 class="sizeLetters">26/01/2020</h2></td>
                             <td><h2 class="sizeLetters">Pagado</h2></td>
                             <td><h2 class="sizeLetters">10,582.50</h2></td>
-                            <td><h2 class="sizeLetters">1,587.37</h2></td>
                         </tr>
                         <tr>
                             <td><input type="button" onclick="infoBillsPay()" class="sizeLetters Button-bills-provider" Value="CementosX"></td>
@@ -106,7 +104,6 @@
                             <td><h2 class="sizeLetters">12/04/2020</h2></td>
                             <td><h2 class="sizeLetters">Pendiente</h2></td>
                             <td><h2 class="sizeLetters">25,785.30</h2></td>
-                            <td><h2 class="sizeLetters">3,867.79</h2></td>
                         </tr>
                     </tbody>
                 </table>
@@ -123,9 +120,73 @@
                             <span aria-hidden="true">&times;</span>
                           </button>
                         </div>
-                        <div class="modal-body">
-                          ...
-                        </div>
+                        <div class="modal-body"> <!---modal body-->
+                          <div style="text-align:center">
+                            <h2 style="margin-top:0px">Ferreteria La Unión</h2>
+                            <h1 style="color:#243742">Crear Factura</h1>
+                          </div>
+                          <hr width="100%" color="red" size="4px"> 
+                          <div style="width: 100%">
+                              <div style="float: left; margin-left: 18%">
+                                <p><strong>Factura #:</strong>##############</p>
+                                <p><strong>Direccion :</strong> La Union Olancho</p>
+                                <p><strong>Telefono:</strong> 9968-1203</p>
+                                <p><strong>Fecha Emision:</strong> 12/12/12</p>
+                                <p><strong>CAI :</strong> 123HJKB1NB12</p>
+                              </div>
+                              <div style="float: left; margin-left: 10%">
+                                <p><strong> Cliente :</strong> <input placeholder="Nombre del cliente" type="text"></p>
+                                <p><strong> Direccion :</strong> Los Pinos</p>
+                                <p><strong> RTN :</strong> 18071968009363</p>
+                              </div>
+                          </div>
+                          <div style="text-align: center">
+                            <table style="margin: auto auto ; width: 100% ; background-color: whitesmoke">
+                                <thead style="background-color: #243742; color: white">
+                                  <tr>
+                                    <th>Cantidad</th>
+                                    <th>Descripcion</th>
+                                    <th>Precio Unitario</th>
+                                    <th>Total lps.</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>1</td>
+                                    <td>Lorem</td>
+                                    <td>lps.12312</td>
+                                    <td>lps.167312</td>
+                                  </tr>
+                                  <tr>
+                                    <td>2</td>
+                                    <td>Lorem</td>
+                                    <td>lps.12312</td>
+                                    <td>lps.167312</td>
+                                  </tr>
+                                  <tr>
+                                    <td>3</td>
+                                    <td>Lorem</td>
+                                    <td>lps.12312</td>
+                                    <td>lps.167312</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-7"></div>
+                            <div class="col-sm-5">
+                                <ul style="list-style: none">
+                                  <li>Importe Excento L.123</li>
+                                  <li>Importe Gravado 15% L.1232</li>
+                                  <li>15% ISV L. 1231</li>
+                                  <li>Total a pagar Lps.475465</li>
+                                </ul>
+                            </div>
+                            <small style="margin-left: 20px">La Factura es beneficio de todos, "Exijala"</small>
+                            
+                          </div>
+                            
+                        </div><!--modal body--->
                         <div class="modal-footer">
                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                           <button type="button" class="btn btn-primary">Save changes</button>
