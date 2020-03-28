@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Inicios</title>
+    <title>Inventario</title>
     <link rel="stylesheet" type=" text/css" media="screen" href="css/Style.css">
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="estilo-boostrap" href="../../css/bootstrap.min.css">
@@ -59,7 +59,7 @@
                 <h5 style="font-size: 25px;">Inventario</h5>
             </div>
             <div class="mt-5">
-                <input type="button" onclick="Productos()" value="Productos" id="Button_Accion" class=" col-12 btn btn-lg"> 
+                <input type="button" onclick="location.reload()" value="Productos" id="Button_Accion" class=" col-12 btn btn-lg"> 
             </div>
             <div class="line"></div>
         </div>
@@ -72,10 +72,27 @@
                   </button>
                 </div>
              </div>
-            <div class="col-12" id="File_position"></div>
+            <div class="col-12" id="File_position">
+              <input type="button" value="Productos" onclick="location.reload()" class="File_accion">
+            </div>
             <div id="Contenido">
                 <!--select name="" id="Impuesto-bills-pay"></select-->
-                
+                <div class="row" id="C´-Prducts" style=" margin-left: auto; margin-right: auto; width: 98%; "style=" margin-left: auto; margin-right: auto; width: 98%; ">
+                  <div class=" col-12 row" id="C-Products">
+                      <div class="col-sm-12 col-md-4 col-lg-3 col-xl-2 col-12 Div-Products" onclick="InfoProducts()" style="margin-left: 0px; margin-right: 0px;">
+                          <img class="col-12" src="../../src/img/products.png" style="width: 100%;" alt="">
+                          <p class="TxtNameProducts">Nombre Producto</p>
+                          <p class="TxtinfoProducts">Casa Distribuidora</p>
+                          <p class="TxtinfoProducts">Precio Producto</p>
+                      </div>
+                      <div class="col-sm-12 col-md-4 col-lg-3 col-xl-2 col-12 Div-Products" onclick="InfoProducts()" style="margin-left: 0px; margin-right: 0px;">
+                          <img class="col-12" src="../../src/img/products.png" style="width: 100%;" alt="">
+                          <p class="TxtNameProducts">Nombre Producto</p>
+                          <p class="TxtinfoProducts">Casa Distribuidora</p>
+                          <p class="TxtinfoProducts">Precio Producto</p>
+                      </div>
+                  </div>
+              </div>
             </div>
         </div>
     </div>

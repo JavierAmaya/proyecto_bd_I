@@ -3,25 +3,11 @@ $(document).ready(function(){
 });
 
 
-function Productos(){
+
+function InfoProducts(){
     $('#File_position').html($(`
         <input type="button" value="Productos" onclick="Productos()" class="File_accion">
     `));
-    $('#Contenido').html($(`
-        <div class="row" id="C´-Prducts" style=" margin-left: auto; margin-right: auto; width: 98%; "style=" margin-left: auto; margin-right: auto; width: 98%; ">
-            <div class=" col-12" id="C-Products">
-                <div class="col-sm-12 col-md-4 col-lg-3 col-xl-2 col-12 Div-Products" onclick="InfoProducts()">
-                    <img class="col-12" src="../../src/img/products.png" style="width: 100%;" alt="">
-                    <p class="TxtNameProducts">Nombre Producto</p>
-                    <p class="TxtinfoProducts">Casa Distribuidora</p>
-                    <p class="TxtinfoProducts">Precio Producto</p>
-                </div>
-            </div>
-        </div>
-    `))
-}
-function InfoProducts(){
-    Productos();
     $('#File_position').append($(`
         <span>/</span>
         <input type="button" value="información Productos" onclick="InfoProducts()" class="File_accion">

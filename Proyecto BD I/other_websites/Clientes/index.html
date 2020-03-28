@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Inicios</title>
+    <title>Clientes</title>
     <link rel="estilo-boostrap" href="../../css/bootstrap.min.css">
     <link rel="stylesheet" type=" text/css" media="screen" href="css/Style.css">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -59,7 +59,7 @@
                 <h5 style="font-size: 25px;">Cliente</h5>
             </div>
             <div class="mt-5">
-                <input type="button" onclick="Clientes()" value="Clientes" style="font-size:15px; color:white;" class="col-12 btn btn-lg Button_Accion "> 
+                <input type="button" onclick="location.reload()" value="Clientes" style="font-size:15px; color:white;" class="col-12 btn btn-lg Button_Accion "> 
             </div>
             <div class="line"></div>
         </div>
@@ -72,36 +72,39 @@
                   </button>
                 </div>
              </div>
-            <div class="col-12" id="File_position"></div>
+            <div class="col-12" id="File_position">
+                <input type="button" value="Clientes" onclick="location.reload()" class="File_accion">
+            </div>
             <div id="Contenido">
-                <div class="col-12 row" id="color-tittle-list-bills-pay">
-                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3 col-6 "><h2 class="sizeLetters">Nombre Cliente</h2></div>
-                    <div class="col-sm-6 col-md-3 col-lg-3 col-xl-2 col-6 "><h2 class="sizeLetters">Apellido</h2></div>
-                    <div class="col-sm-6 col-md-3 col-lg-3 col-xl-2 col-6 "><h2 class="sizeLetters">Dirección</h2></div>
-                    <div class="col-sm-6 col-md-3 col-lg-3 col-xl-2 col-6 "><h2 class="sizeLetters">Correo Electronico</h2></div>
-                    <div class="col-sm-4 col-md-3 col-lg-3 col-xl-1 col-4 "><h2 class="sizeLetters">Estado</h2></div>
-                    <div class="col-sm-4 col-md-3 col-lg-3 col-xl-1 col-4 "><h2 class="sizeLetters">Monto</h2></div>
-                    <div class="col-sm-4 col-md-3 col-lg-3 col-xl-1 col-4 "><h2 class="sizeLetters">ISV</h2></div>
-                </div>
-                <div class="line-contenido"></div>
-                <div class="col-12" id="List-style-bills-pay" >
-                    <div class="col-12 row" id="color-descriptionA-list-bills-pay">
-                        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3 col-6 "><input type="button" onclick="infoBillsPay()" class="sizeLetters Button-bills-provider" Value="Truper"></div>
-                        <div class="col-sm-6 col-md-3 col-lg-3 col-xl-2 col-6 "><input type="button" onclick="infoBillsPay()" class="sizeLetters Button-bills-provider" Value="00000102001"></div>
-                        <div class="col-sm-6 col-md-3 col-lg-3 col-xl-2 col-6 "><h2 class="sizeLetters">11/01/2020</h2></div>
-                        <div class="col-sm-6 col-md-3 col-lg-3 col-xl-2 col-6 "><h2 class="sizeLetters">26/01/2020</h2></div>
-                        <div class="col-sm-4 col-md-3 col-lg-3 col-xl-1 col-4 "><h2 class="sizeLetters">Pagado</h2></div>
-                        <div class="col-sm-4 col-md-3 col-lg-3 col-xl-1 col-4 "><h2 class="sizeLetters">10,582.50</h2></div>
-                        <div class="col-sm-4 col-md-3 col-lg-3 col-xl-1 col-4 "><h2 class="sizeLetters">1,587.37</h2></div>
-                    </div>
-                    <div class="col-12 row" id="color-descriptionB-list-bills-pay">
-                        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3 col-6 "><input type="button" onclick="infoBillsPay()" class="sizeLetters Button-bills-provider" Value="CementosX"></div>
-                        <div class="col-sm-6 col-md-3 col-lg-3 col-xl-2 col-6 "><input type="button" onclick="infoBillsPay()" class="sizeLetters Button-bills-provider" Value="00000102002"></div>
-                        <div class="col-sm-6 col-md-3 col-lg-3 col-xl-2 col-6 "><h2 class="sizeLetters">12/03/2020</h2></div>
-                        <div class="col-sm-6 col-md-3 col-lg-3 col-xl-2 col-6 "><h2 class="sizeLetters">12/04/2020</h2></div>
-                        <div class="col-sm-4 col-md-3 col-lg-3 col-xl-1 col-4 "><h2 class="sizeLetters">Pendiente</h2></div>
-                        <div class="col-sm-4 col-md-3 col-lg-3 col-xl-1 col-4 "><h2 class="sizeLetters">25,785.30</h2></div>
-                        <div class="col-sm-4 col-md-3 col-lg-3 col-xl-1 col-4 "><h2 class="sizeLetters">3,867.79</h2></div>
+                <div class="" id="C´-Products" style=" margin-left: auto; margin-right: auto; width: 98%; ">
+                    <div class=" col-12 row" id="C-Productss" style="padding-left: 25px;">
+                        <div class="col-sm-12 col-md-4 col-lg-3 col-xl-4 col-12 Div-Products row" onclick="clientsInformation()" style="margin-left: 0px; margin-right: 0px;">
+                            <img class="col-4" src="../../src/img/products.png" style="width: 100%;" alt="">
+                            <div class="col-8">
+                                <p class="col-12 TxtNameProducts">Name clients</p>
+                                <p class="col-12 TxtinfoProducts">Email</p>
+                                <p class="col-12 TxtinfoProducts">Phone</p>
+                            </div>
+                            <p class="TxtinfoProducts">direction</p>
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-lg-3 col-xl-4 col-12 Div-Products row" onclick="clientsInformation()" style="margin-left: 0px; margin-right: 0px;">
+                            <img class="col-4" src="../../src/img/products.png" style="width: 100%;" alt="">
+                            <div class="col-8">
+                                <p class="col-12 TxtNameProducts">Pedro López</p>
+                                <p class="col-12 TxtinfoProducts">pedro.lopez@gmail.com</p>
+                                <p class="col-12 TxtinfoProducts">87847582</p>
+                            </div>
+                            <p class="TxtinfoProducts">Olancho, la Unión</p>
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-lg-3 col-xl-4 col-12 Div-Products row" onclick="clientsInformation()" style="margin-left: 0px; margin-right: 0px;">
+                            <img class="col-4" src="../../src/img/products.png" style="width: 100%;" alt="">
+                            <div class="col-8">
+                                <p class="col-12 TxtNameProducts">Name clients</p>
+                                <p class="col-12 TxtinfoProducts">Email</p>
+                                <p class="col-12 TxtinfoProducts">Phone</p>
+                            </div>
+                            <p class="TxtinfoProducts">direction</p>
+                        </div>
                     </div>
                 </div>
             </div>
