@@ -103,10 +103,12 @@
   /*Prducts*/
   #C-Products{background-color: rgb(255,255,255);border-radius: 9px; overflow: auto;}
   #C´-Prducts{margin-left: auto; width: 98%; margin-right: auto;}
-  .Div-Products{background-color: rgb(235,235,235); margin-top: 5px; border-radius: 5px; border: 1px solid #1E133D;}
+  .Div-Products{background-color: rgb(235,235,235); margin-top: 5px; border-radius: 5px; border: 1px solid black;}
   .Div-Products:hover{background-color: rgb(250,250,250);}
   .TxtNameProducts{font-size: 25px; color: #082041;font-weight: 700;}
   .TxtinfoProducts{font-size: 20px; color: #082041;font-weight: 600;margin-bottom: 0px;}
   .TamanioImput{font-size: 15px;}
-  #TamaniCheckbox{width: 20px;height: 20px;margin-left: 15px;}
+  #TamaniCheckbox{width: 20px;height: 20px;margin-left: 15px;margin-bottom: auto;margin-top: auto;}
+  .OrieTextInfoProduct{font-size: 25px; margin-bottom: 0px;}
+  .marginProductsTextInfo{margin-bottom: 6px; }
   /*Prducts*/

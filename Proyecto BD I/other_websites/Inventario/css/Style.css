@@ -9,7 +9,7 @@
 @media  screen and (min-width: 1200px){
   .wrap{width: 70%;}
   #height_Auto{height: 1007px;}
-  .OrieTextInfoProduct{text-align: end;}
+  .OrieTextInfoProduct{text-align: end;font-size: 22px; margin-bottom: 0px;}
   #List-style-bills-pay{height: 830px;}
   #Button_Accion{font-size: 20px;}
   .hide-information{display: none;}
@@ -106,5 +106,7 @@
   .TxtNameProducts{font-size: 25px; color: #082041;font-weight: 700;}
   .TxtinfoProducts{font-size: 20px; color: #082041;font-weight: 600;margin-bottom: 0px;}
   .TamanioImput{font-size: 15px;}
-  #TamaniCheckbox{width: 20px;height: 20px;margin-left: 15px;}
+  #TamaniCheckbox{width: 20px;height: 20px;margin-left: 15px;margin-bottom: auto;margin-top: auto;}
+  .OrieTextInfoProduct{font-size: 25px; margin-bottom: 0px;}
+  .marginProductsTextInfo{margin-bottom: 6px; }
   /*Prducts*/
