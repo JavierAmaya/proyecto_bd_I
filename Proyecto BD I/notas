@@ -1,0 +1,10 @@
+{
+    nombre:"Agencia Global",
+    correo:"agenciaglobal@gmail.com",
+    rtn:"1513-1999-001234",
+    telefono:"99-99-99-99",
+    pais:"Honduras",
+    ciudad:"Tegucigalpa",
+    codigo_postal:"123512",
+    Direccion:"Blv. Morazan, calle 23"
+}
