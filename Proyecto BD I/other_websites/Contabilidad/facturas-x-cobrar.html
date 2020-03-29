@@ -116,16 +116,38 @@
                     <div class="modal-dialog modal-lg" role="document">
                       <div class="modal-content">
                         <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                           </button>
                         </div>
-                        <div class="modal-body"> <!---modal body-->
+                        <div class="modal-body">
                           <div style="text-align:center">
                             <h2 style="margin-top:0px">Ferreteria La Unión</h2>
                             <h1 style="color:#243742">Crear Factura</h1>
                           </div>
+                          <hr width="100%" color="red" size="4px"> 
+                          <div class="">
+                          <div class="row no-gutters">
+                            <div class="col-3">
+                              <label><strong>Producto:</strong></label>
+                              <select id="slc-productos" class="form-control">
+                                <option value=""></option>
+                                <option value=""></option>
+                              </select>
+                            </div>
+                              
+                            <div class="col offset-1">
+                              <label><strong>Precio:</strong></label>
+                              <input type="text" id="txt-producto" class="form-control">
+                            </div>
+                            <div class="col offset-1"><label><strong>Cantidad:</strong></label>
+                              <input type="text" id="txt-producto" class="form-control">
+                            </div>
+                            <div class="col offset-1 mt-3">
+                              <button class="btn btn-success"><i class="fa fa-plus-circle"></i><strong class="ml-1">Agregar</strong></button>
+                            </div>
+                          </div>
+                        </div>
                           <hr width="100%" color="red" size="4px"> 
                           <div style="width: 100%">
                               <div style="float: left; margin-left: 18%">
@@ -136,12 +158,35 @@
                                 <p><strong>CAI :</strong> 123HJKB1NB12</p>
                               </div>
                               <div style="float: left; margin-left: 10%">
-                                <p><strong> Cliente :</strong> <input placeholder="Nombre del cliente" type="text"></p>
-                                <p><strong> Direccion :</strong> Los Pinos</p>
-                                <p><strong> RTN :</strong> 18071968009363</p>
+                                <div class="row">
+                                  <div class="col-3">
+                                    <label class="mt-1 mr-2"><strong>Clientes:</strong></label>
+                                  </div>
+                                  <div class="col-8 offset-1">
+                                  <select id="slc-clientes" class="form-control">
+                                      <option value=""></option>
+                                      <option value=""></option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="row mt-2">
+                                  <div class="col-4">
+                                    <label for="mt-2"><strong> Direccion :</strong> </label>
+                                  </div>
+                                  <div class="col-8">
+                                    <input type="text" class="form-control">
+                                  </div>
+                                </div>
+                                <div class="row mt-2">
+                                  <div class="col-3"><strong> RTN :</strong> </div>
+                                  <div class="col-9">
+                                    <input type="number" class="form-control">
+                                  </div>
+                                </div>
                               </div>
                           </div>
                           <div style="text-align: center">
+                            
                             <table style="margin: auto auto ; width: 100% ; background-color: whitesmoke">
                                 <thead style="background-color: #243742; color: white">
                                   <tr>
@@ -189,8 +234,8 @@
                             
                         </div><!--modal body--->
                         <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-primary">Save changes</button>
+                          <button type="reset" class="btn btn-warning">Limpiar</button>
+                          <button type="button" class="btn btn-primary">Registrar Factura</button>
                         </div>
                       </div>
                     </div>
