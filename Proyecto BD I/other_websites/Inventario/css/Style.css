@@ -110,3 +110,10 @@
   .OrieTextInfoProduct{font-size: 25px; margin-bottom: 0px;}
   .marginProductsTextInfo{margin-bottom: 6px; }
   /*Prducts*/
+  .box{padding: 6.25rem 1.25rem;}
+  .inputfile {width: 0.1px;height: 0.1px;opacity: 0;overflow: hidden;position: absolute;z-index: -1;}
+  .inputfile + label {max-width: 80%;font-size: 1.25rem;font-weight: 700;text-overflow: ellipsis;white-space: nowrap;cursor: pointer;display: inline-block;overflow: hidden;padding: 0.625rem 1.25rem;}
+  .inputfile + label:hover {background-color: rgb(40, 27, 83);}
+.inputfile-1 + label {color: #f1e5e6;background-color: #1E143E;}
+.inputfile + label svg {width: 1em;height: 1em;vertical-align: middle;fill: currentColor;margin-top: -0.25em;margin-right: 0.25em;}
+.OptionTypeSaleCheckbox{width: 20px;height: 20px;margin-bottom: auto;margin-top: auto;}
