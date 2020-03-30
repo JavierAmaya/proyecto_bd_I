@@ -12,7 +12,7 @@
   .wrap{width: 70%;}
   #height_Auto{height: 1007px;}
   .OrieTextInfoProduct{text-align: end;}
-  #List-style-bills-pay{height: 830px;}
+  #heightNewClient{height: 830px;}
   .Button_Accion{font-size: 20px;}
   .hide-information{display: none;}
   #foto-proveedor{margin-left: 85%;}
@@ -21,7 +21,7 @@
   .wrap{width: 100%;}
   #height_Auto{height: 1007px;}
   .OrieTextInfoProduct{text-align: end;}
-  #List-style-bills-pay{height: 782px;}
+  #heightNewClient{height: 782px;}
   .Button_Accion{font-size: 18px;}
   .hide-information{display: none;}
   #foto-proveedor{margin-left: 75%;}
@@ -30,7 +30,7 @@
   .wrap{width: 100%;}
   #height_Auto{height: 1067px;}
   .OrieTextInfoProduct{text-align: center;}
-  #List-style-bills-pay{height: 715px;}
+  #heightNewClient{height: 715px;}
   .Button_Accion{font-size: 17px;}
   #foto-proveedor{margin-left: 50%;}
 }
@@ -38,7 +38,7 @@
   .wrap{width: 100%;}
   #height_Auto{height: 1087px;}
   .OrieTextInfoProduct{text-align: center;}
-  #List-style-bills-pay{height: 742px;}
+  #heightNewClient{height: 742px;}
   .Button_Accion{  font-size: 12px;}
   .hide-information{display: block;}
   #foto-proveedor{margin-left: 50%;}
@@ -47,7 +47,7 @@
   .wrap{width: 100%;}
   #height_Auto{height: 397px;}
   .OrieTextInfoProduct{text-align: center;}
-  #List-style-bills-pay{height: 400px;}
+  #heightNewClient{height: 400px;}
   .Button_Accion{font-size: 17px;}
   .line {border-top: 1px solid #082041;display: block;line-height: 1px;margin: 15px 0px 0px 0px;position: relative;text-align: center;border-top-width: 5px;}
   .hide-information{display: block;}
@@ -75,7 +75,7 @@
   .line-contenido{border-top: 1px solid #082041;display: block;line-height: 1px;text-align: center;border-top-width: 3px;margin-left: auto; margin-right: auto; width: 98%;}
   #contenido{margin-right: 9px; margin-left: 4px;}
   .sizeLetters{font-size: 16px;COLOR: #082041;}
-  #List-style-bills-pay{padding-left: 0px; padding-right: 0px; overflow: auto; margin-left: auto; margin-right: auto; width: 98%;}
+  #heightNewClient{background-color: white;border-radius: 3px;padding-left: 0px; padding-right: 0px; overflow: auto; margin-left: auto; margin-right: auto; width: 98%;}
   #color-tittle-list-bills-pay{background-color: rgba(255,255,255,1); margin-left: 0px;border-radius: 4px; margin-left: auto; margin-right: auto; width: 98%;}
   #color-descriptionA-list-bills-pay{background-color: rgba(240,240,240,1);margin-left: 0px;}
   #color-descriptionB-list-bills-pay{background-color: rgba(230,230,230,1);margin-left: 0px;}
@@ -112,3 +112,9 @@
   .OrieTextInfoProduct{font-size: 25px; margin-bottom: 0px;}
   .marginProductsTextInfo{margin-bottom: 6px; }
   /*Prducts*/
+  .inputfile {width: 0.1px;height: 0.1px;opacity: 0;overflow: hidden;position: absolute;z-index: -1;}
+  .inputfile + label {max-width: 80%;font-size: 1.25rem;font-weight: 700;text-overflow: ellipsis;white-space: nowrap;cursor: pointer;display: inline-block;overflow: hidden;padding: 0.625rem 1.25rem;}
+  .inputfile + label:hover {background-color: rgb(40, 27, 83);}
+.inputfile-1 + label {color: #f1e5e6;background-color: #1E143E;}
+.inputfile + label svg {width: 1em;height: 1em;vertical-align: middle;fill: currentColor;margin-top: -0.25em;margin-right: 0.25em;}
+.OptionTypeSaleCheckbox{width: 20px;height: 20px;margin-bottom: auto;margin-top: auto;}
