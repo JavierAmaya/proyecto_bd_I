@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clientes</title>
+    <link rel="estilo-boostrap" href="../../../css/bootstrap.min.css">
+    <link rel="stylesheet" type=" text/css" media="screen" href="css/Style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="../../../css/bootstrap.min.css" crossorigin="anonymous">
+    <script src="../../../js/bootstrap.min.js" crossorigin="anonymous">
+    </script><script src="https://kit.fontawesome.com/bd816e089d.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../css/style.css">
+    <style>
+        #body_confi{
+            background-image: url(../../src/img/wall.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        </style>
+</head>
+<body id="body_confi">
+    <header>
+        <nav style="background-color: #110533;color: white" class=" navbar navbar-expand-lg navbar-dark">
+          <div class="navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav mr-auto">
+               <li class="nav-item active">
+                   <a class="navbar-brand anchor_navbar" href="../../../index.html">
+                     <img src="../../../src/img/ferreteria logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+                     Ferreteria La Union
+                   </a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="other_websites/Inicio/index.html">Inventario</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="#">Cliente</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="#">Link</a>
+               </li>
+              
+             </ul>
+          </div>
+        </nav>
+    </header>
+
+  <section class="Container-fluid mt-4 mb-4" id="sectionPricipal">
+    <div class="row" id="row_confi">
+        <div class="col-sm-4 col-md-4 col-lg-3 col-xl-2 col-12 var-left" style="padding-left: 0px; padding-right: 0px;">
+            <div class="col-12">
+                <!--img src="../../img/icon/1.png" alt="" width="100%"-->
+            </div>
+            <div class="text-center mt-5 item-var-left">
+                <h5 style="font-size: 25px;">Cliente</h5>
+            </div>
+            <div class="mt-5">
+                <input type="button" onclick="Retornar()" value="Clientes" style="font-size:15px; color:white;" class="col-12 btn btn-lg Button_Accion "> 
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="col-sm-8 col-md-8 col-lg-9 col-xl-10 col-12" id="height_Auto">
+            <div class="wrap mr-4">
+                <div class="search" style="font-size: auto;">
+                   <input type="text" class="searchTerm" placeholder="Buscador">
+                   <button type="submit" class="searchButton">
+                     <i class="fa fa-search"></i>
+                  </button>
+                </div>
+             </div>
+            <div class="col-12" id="File_position">
+                <input type="button" value="Clientes" onclick="Retornar()" class="File_accion">
+                <span>/</span>
+                <input type="button" value="Información Cliente" onclick="location.reload()" class="File_accion">
+            </div>
+            <div id="Contenido">
+                <div class="color-contenido margin-cero ">
+                    <div><h1 style=" text-align: center; ">Información Cliente </h1></div>
+                    <div class="margin-cero row" style=" margin-left: 0px; margin-right: 0px; ">
+                        <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-12">
+                            <div class="col-12" id="foto-Productos">
+                                <h1>Cliente: <span>NameClient</span></h1>
+                                <img src="../../../src/img/User-Proveedor.jpg" width="100%" alt="">
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8 col-12 ">
+                            <div class="marginProductsTextInfo col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12 row">
+                                <p class="OrieTextInfoProduct col-sm-12 col-md-12 col-lg-6 col-xl-6 col-12">Nombre Cliente</p><input value="Juan Perez"  class="TamanioImput col-sm-12 col-md-12 col-lg-6 col-xl-6 col-12" type="text" name="" id="">
+                            </div>
+                            <div class="marginProductsTextInfo col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12 row">
+                                <p class="OrieTextInfoProduct col-sm-12 col-md-12 col-lg-6 col-xl-6 col-12">Correo</p><input value="juan.perez@gmail.com"  class="TamanioImput col-sm-12 col-md-12 col-lg-6 col-xl-6 col-12" type="text" name="" id="">
+                            </div>
+                            <div class="marginProductsTextInfo col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12 row">
+                                <p class="OrieTextInfoProduct col-sm-12 col-md-12 col-lg-6 col-xl-6 col-12">Teléfono</p><input type="tel" class="TamanioImput col-sm-12 col-md-12 col-lg-6 col-xl-6 col-12" id="phone" name="phone" placeholder="1235-4678" pattern="[0-9]{4}-[0-9]{4}" required>
+                            </div>
+                            <div class="marginProductsTextInfo col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12 row">
+                                <p class="OrieTextInfoProduct col-sm-12 col-md-12 col-lg-6 col-xl-6 col-12">Dirreción 1</p>
+                                <div class="col-6" style="height: 80px; padding-left: 0px;padding-right: 0px;">
+                                    <textarea class="col-sm-12 col-md-12 col-lg-6 col-xl-12 col-12" name="" id="" style="font-size: 15px; width: -webkit-fill-available; height: -webkit-fill-available; "></textarea>
+                                </div>
+                            </div>
+                            <div class="marginProductsTextInfo col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12 row">
+                                <p class="OrieTextInfoProduct col-sm-12 col-md-12 col-lg-6 col-xl-6 col-12">Dirreción 2</p>
+                                <div class="col-6" style="height: 80px; padding-left: 0px;padding-right: 0px;">
+                                    <textarea class="col-sm-12 col-md-12 col-lg-6 col-xl-12 col-12" name="" id="" style="font-size: 15px; width: -webkit-fill-available; height: -webkit-fill-available; "></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line-contenido"></div>
+                    <div class="col-12" style="padding-bottom: 15px;height: 45px;">
+                        <div class="col-sm-12  col-md-10  col-lg-8 col-xl-4 col-10 row" style=" margin-left: auto;margin-top: 5px;">
+                            <input style="font-size: 15px;" class="col-6 btn btn-outline-primary" type="button" value="Guardar Cambios">
+                            <input style="font-size: 15px;" class="col-6 btn btn-outline-secondary" type="button" value="Cancelar">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <footer class="footer">
+        
+  </footer> 
+      
+    <script src="../../js/jquery-3.4.1.min.js"></script>
+    <script src="../../js/bootstrap.js"></script>
+    <script src="js/controlador.js"></script>
+    <script src="../../js/bootstrap.bundle.js"></script>
+    <script src="../../js/util.js"></script>
+</body>
+</html>
