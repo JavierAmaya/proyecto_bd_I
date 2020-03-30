@@ -118,3 +118,5 @@
 .inputfile-1 + label {color: #f1e5e6;background-color: #1E143E;}
 .inputfile + label svg {width: 1em;height: 1em;vertical-align: middle;fill: currentColor;margin-top: -0.25em;margin-right: 0.25em;}
 .OptionTypeSaleCheckbox{width: 20px;height: 20px;margin-bottom: auto;margin-top: auto;}
+.RadioTypeClient{width: 20px;height: 20px;margin-top: 5px;}
+.labelRadioTypeClient{font-size: 20px;font-weight: 700;padding-right: 25px;padding-left: 10px;}
