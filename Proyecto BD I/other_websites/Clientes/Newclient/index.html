@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clientes</title>
+    <link rel="estilo-boostrap" href="../../../css/bootstrap.min.css">
+    <link rel="stylesheet" type=" text/css" media="screen" href="css/Style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="../../../css/bootstrap.min.css" crossorigin="anonymous">
+    <script src="../../../js/bootstrap.min.js" crossorigin="anonymous">
+    </script><script src="https://kit.fontawesome.com/bd816e089d.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../css/style.css">
+    <style>
+        #body_confi{
+            background-image: url(../../src/img/wall.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        </style>
+</head>
+<body id="body_confi">
+    <header>
+        <nav style="background-color: #110533;color: white" class=" navbar navbar-expand-lg navbar-dark">
+          <div class="navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav mr-auto">
+               <li class="nav-item active">
+                   <a class="navbar-brand anchor_navbar" href="../../../index.html">
+                     <img src="../../../src/img/ferreteria logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+                     Ferreteria La Union
+                   </a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="other_websites/Inicio/index.html">Inventario</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="#">Cliente</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="#">Link</a>
+               </li>
+              
+             </ul>
+          </div>
+        </nav>
+    </header>
+
+  <section class="Container-fluid mt-4 mb-4" id="sectionPricipal">
+    <div class="row" id="row_confi">
+        <div class="col-sm-4 col-md-4 col-lg-3 col-xl-2 col-12 var-left" style="padding-left: 0px; padding-right: 0px;">
+            <div class="col-12">
+                <!--img src="../../img/icon/1.png" alt="" width="100%"-->
+            </div>
+            <div class="text-center mt-5 item-var-left">
+                <h5 style="font-size: 25px;">Cliente</h5>
+            </div>
+            <div class="mt-5">
+                <input type="button" onclick="Retornar()" value="Clientes" style="font-size:15px; color:white;" class="col-12 btn btn-lg Button_Accion "> 
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="col-sm-8 col-md-8 col-lg-9 col-xl-10 col-12" id="height_Auto">
+            <div class="wrap mr-4">
+                <div class="search" style="font-size: auto;">
+                   <input type="text" class="searchTerm" placeholder="Buscador">
+                   <button type="submit" class="searchButton">
+                     <i class="fa fa-search"></i>
+                  </button>
+                </div>
+             </div>
+            <div class="col-12" id="File_position">
+                <input type="button" value="Clientes" onclick="Retornar()" class="File_accion">
+                <span>/</span>
+                <input type="button" value="Nuevo Cliente" onclick="location.reload()" class="File_accion">
+            </div>
+            <div style="margin-top: 2px;margin-bottom: 5px;padding-left: 15px;">
+                <button type="button" class="btn btn-primary">Registrar Producto</button>
+                <button type="reset" class="btn btn-dark" onclick="Retornar()">Cancelar</button>
+              </div>
+            <div id="Contenido">
+                <div id="heightNewClient">
+                    <div class="col-9 row" style=" margin-left: 0px; margin-right: 0px;margin-top: 5px;">
+                        <div class="col-3">
+                          <input type="file" name="file-1[]" id="file-1" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" multiple="">
+                          <label style="width: 100%;" for="file-1"><svg style="width: 5em; height: 5em;" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17"><path d="M10 0l-5.2 4.9h3.3v5.1h3.8v-5.1h3.3l-5.2-4.9zm9.3 11.5l-3.2-2.1h-2l3.4 2.6h-3.5c-.1 0-.2.1-.2.1l-.8 2.3h-6l-.8-2.2c-.1-.1-.1-.2-.2-.2h-3.6l3.4-2.6h-2l-3.2 2.1c-.4.3-.7 1-.6 1.5l.6 3.1c.1.5.7.9 1.2.9h16.3c.6 0 1.1-.4 1.3-.9l.6-3.1c.1-.5-.2-1.2-.7-1.5z"></path></svg></label>
+                        </div>
+                        <div class="col-9">
+                            <label for="Cliente1"><input type="radio" id="Cliente1" name="Cliente" value="1">Individual</label>
+                            <label for="Cliente2"><input type="radio" id="Cliente2" name="Cliente" value="0">Compañia</label>
+
+                        </div>
+                    </div>
+                    <div class="col-3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <footer class="footer">
+        
+  </footer> 
+      
+    <script src="../../js/jquery-3.4.1.min.js"></script>
+    <script src="../../js/bootstrap.js"></script>
+    <script src="js/controlador.js"></script>
+    <script src="../../js/bootstrap.bundle.js"></script>
+    <script src="../../js/util.js"></script>
+</body>
+</html>
