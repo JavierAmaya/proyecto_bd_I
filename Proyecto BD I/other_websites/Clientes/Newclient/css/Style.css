@@ -120,3 +120,6 @@
 .OptionTypeSaleCheckbox{width: 20px;height: 20px;margin-bottom: auto;margin-top: auto;}
 .RadioTypeClient{width: 20px;height: 20px;margin-top: 5px;}
 .labelRadioTypeClient{font-size: 20px;font-weight: 700;padding-right: 25px;padding-left: 10px;}
+.formCliente{margin-bottom: 5px;}
+.PClienteNew{font-weight: 700;font-size: 19px;}
+.PClienteNewMargen{padding-right: 0px;  border-right: 3px solid; margin-right: 10px;}

@@ -86,15 +86,97 @@
                     <div class="col-9 row" style=" margin-left: 0px; margin-right: 0px;margin-top: 5px;">
                         <div class="col-3">
                           <input type="file" name="file-1[]" id="file-1" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" multiple="">
-                          <label style="width: 100%;" for="file-1"><svg style="width: 5em; height: 5em;" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17"><path d="M10 0l-5.2 4.9h3.3v5.1h3.8v-5.1h3.3l-5.2-4.9zm9.3 11.5l-3.2-2.1h-2l3.4 2.6h-3.5c-.1 0-.2.1-.2.1l-.8 2.3h-6l-.8-2.2c-.1-.1-.1-.2-.2-.2h-3.6l3.4-2.6h-2l-3.2 2.1c-.4.3-.7 1-.6 1.5l.6 3.1c.1.5.7.9 1.2.9h16.3c.6 0 1.1-.4 1.3-.9l.6-3.1c.1-.5-.2-1.2-.7-1.5z"></path></svg></label>
+                          <label style="width: 100%;border-radius: 10px;" for="file-1">
+                            <img src="src/img/Foto.png" style="width: 100%; height: 100%;" alt="">
+                            </label>
                         </div>
                         <div class="col-9">
                             <input class="RadioTypeClient" type="radio" id="Cliente1" name="Cliente" value="1"><label class="labelRadioTypeClient" for="Cliente1">Individual</label>
                             <input class="RadioTypeClient" type="radio" id="Cliente2" name="Cliente" value="0"><label class="labelRadioTypeClient" for="Cliente2">Compañia  </label>
-                            <input class="col-12 form-control" placeholder="Name" style="background-color: rgb(83,73,114);color: white;" type="text" name="" id="">
+                            <input class="col-12 form-control" placeholder="Name" Id="NameClientes" >
                         </div>
                     </div>
-                    <div class="col-3"></div>
+                    <div class="row col-12">
+                        <div class="col-6 row">
+                            <div class="col-3 PClienteNewMargen"><p class="PClienteNew">Dirección</p></div>
+                            <div class="col-9 row">
+                                <input class="formCliente form-control col-12" placeholder="Calle..." type="text" name="" id="">
+                                <input class="formCliente form-control col-12" placeholder="Calle 2..." type="text" name="" id="">
+                                <input class="formCliente form-control col-4 " placeholder="Ciudad" type="text" name="" id="">
+                                <select class="formCliente form-control col-4 " placeholder="Estado" name="" id=""></select>
+                                <input class="formCliente form-control col-4 " placeholder="C. P." type="text" name="" id="">
+                                <select class="formCliente form-control col-12" name="" id=""></select>
+                            </div>
+                            <div class="col-3 PClienteNewMargen"><p class="PClienteNew">RTN</p></div>
+                            <div class="col-9 row">
+                                <input class="formCliente form-control col-12" placeholder="Por ejemplo, 0801-9015-740333" type="text" name="" id="">
+                            </div>
+                        </div>
+                        <div class="col-6 row">
+                            <div class="col-3 PClienteNewMargen"><p class="PClienteNew">Teléfono</p></div>
+                            <div class="col-9 row"><input class="formCliente form-control col-12" type="text" name="" id=""></div>
+                            <div class="col-3 PClienteNewMargen"><p class="PClienteNew">Móvil</p></div>
+                            <div class="col-9 row"><input class="formCliente form-control col-12" type="text" name="" id=""></div>
+                            <div class="col-3 PClienteNewMargen"><p class="PClienteNew">Correo</p></div>
+                            <div class="col-9 row"><input class="formCliente form-control col-12" type="text" name="" id=""></div>
+                            <div class="col-3 PClienteNewMargen"><p class="PClienteNew">Sitio web</p></div>
+                            <div class="col-9 row"><input class="formCliente form-control col-12" placeholder="Por ejemplo, www.ejemplo.com" type="text" name="" id=""></div>
+                            <div class="col-3 PClienteNewMargen"><p class="PClienteNew">Idioma</p></div>
+                            <div class="col-9 row"><select class="formCliente form-control col-12 " placeholder="Estado" name="" id=""></select></div>
+                        </div>
+                    </div>
+                    <div style="padding-top:20px" class="">
+                        <div class="row" style="margin-left: 0px;margin-right: 0px;">
+                            <div class="col-sm-12">
+                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                  <li class="nav-item">
+                                    <a class="nav-link active show" id="ventas-tab" data-toggle="tab" href="#Contactos" role="tab" aria-controls="Contactos" aria-selected="true">Contactos y direcciones</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" id="inventario-tab" data-toggle="tab" href="#Nota" role="tab" aria-controls="Nota" aria-selected="false">Nota interna</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" id="inventario-tab" data-toggle="tab" href="#venta" role="tab" aria-controls="venta" aria-selected="false">Ventas</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" id="inventario-tab" data-toggle="tab" href="#Contabilidad" role="tab" aria-controls="Contabilidad" aria-selected="false">Contabilidad</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" id="inventario-tab" data-toggle="tab" href="#Cumplimiento" role="tab" aria-controls="Cumplimiento" aria-selected="false">Cumplimiento</a>
+                                  </li>
+                                </ul>
+                            </div>
+                            <div class="tab-content col-sm-12" id="myTabContent">
+                              <div class="tab-pane fade active show" id="Contactos" role="tabpanel" aria-labelledby="ventas-tab">
+                                  <div class="card-body">
+                                        <input type="button" class="btn btn-light" value="Añadir">
+                                  </div>
+                              </div>
+                              
+                              <div class="tab-pane fade" id="Nota" role="tabpanel" aria-labelledby="inventario-tab">
+                                    <div class="card-body">
+                                        <h5 style="color:#211640">Nota</h5>
+                                    </div>
+                              </div>
+                              <div class="tab-pane fade" id="venta" role="tabpanel" aria-labelledby="inventario-tab">
+                                <div class="card-body">
+                                    <h5 style="color:#211640">Venta</h5>
+                                </div>
+                              </div>
+                              <div class="tab-pane fade" id="Contabilidad" role="tabpanel" aria-labelledby="inventario-tab">
+                                <div class="card-body">
+                                    <h5 style="color:#211640">Contabilidad</h5>
+                                </div>
+                              </div>
+                              <div class="tab-pane fade" id="Cumplimiento" role="tabpanel" aria-labelledby="inventario-tab">
+                                <div class="card-body">
+                                    <h5 style="color:#211640">Cumplimiento</h5>
+                                </div>
+                              </div>
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
