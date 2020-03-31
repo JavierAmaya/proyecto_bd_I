@@ -73,7 +73,7 @@
   .File_accion{font-size: 20px;font-weight: 600;background-color: transparent;border: transparent;overflow: auto;}
   #File_position{font-size: 20px;}
   .line-contenido{border-top: 1px solid #082041;display: block;line-height: 1px;text-align: center;border-top-width: 3px;margin-left: auto; margin-right: auto; width: 98%;}
-  #contenido{margin-right: 9px; margin-left: 4px;}
+  #contenido{margin-right: 20px; margin-left: 20px;}
   .sizeLetters{font-size: 16px;COLOR: #082041;}
   #List-style-bills-pay{padding-left: 0px; padding-right: 0px; overflow: auto; margin-left: auto; margin-right: auto; width: 98%;}
   #color-tittle-list-bills-pay{background-color: rgba(255,255,255,1); margin-left: 0px;border-radius: 4px; margin-left: auto; margin-right: auto; width: 98%;}
