@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Clientes</title>
+    <title>Nuevo Proveedor</title>
     <link rel="estilo-boostrap" href="../../../css/bootstrap.min.css">
     <link rel="stylesheet" type=" text/css" media="screen" href="css/Style.css">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -56,10 +56,10 @@
                 <!--img src="../../img/icon/1.png" alt="" width="100%"-->
             </div>
             <div class="text-center mt-5 item-var-left">
-                <h5 style="font-size: 25px;">Cliente</h5>
+                <h5 style="font-size: 25px;">Proveedores</h5>
             </div>
             <div class="mt-5">
-                <input type="button" onclick="Retornar()" value="Clientes" style="font-size:15px; color:white;" class="col-12 btn btn-lg Button_Accion "> 
+                <input type="button" onclick="Retornar()" value="Proveedores" style="font-size:15px; color:white;" class="col-12 btn btn-lg Button_Accion "> 
             </div>
             <div class="line"></div>
         </div>
@@ -73,12 +73,12 @@
                 </div>
              </div>
             <div class="col-12" id="File_position">
-                <input type="button" value="Clientes" onclick="Retornar()" class="File_accion">
+                <input type="button" value="Proveedores" onclick="Retornar()" class="File_accion">
                 <span>/</span>
-                <input type="button" value="Nuevo Cliente" onclick="location.reload()" class="File_accion">
+                <input type="button" value="Nuevo Proveedor" onclick="location.reload()" class="File_accion">
             </div>
             <div style="margin-top: 2px;margin-bottom: 5px;padding-left: 15px;">
-                <button type="button" class="btn btn-primary">Registrar Cliente</button>
+                <button type="button" class="btn btn-primary">Registrar Proveedor</button>
                 <button type="reset" class="btn btn-dark" onclick="Retornar()">Cancelar</button>
               </div>
             <div id="Contenido">
@@ -91,7 +91,7 @@
                             </label>
                         </div>
                         <div class="col-9">
-                            <input class="RadioTypeClient" type="radio" id="Cliente1" name="Cliente" value="1"><label class="labelRadioTypeClient" for="Cliente1">Individual</label>
+                            <input class="RadioTypeClient" type="radio" id="Cliente1" name="Cliente" value="1"><label class="labelRadioTypeClient" for="Cliente1">Proveedor Individual</label>
                             <input class="RadioTypeClient" type="radio" id="Cliente2" name="Cliente" value="0"><label class="labelRadioTypeClient" for="Cliente2">Compañia  </label>
                             <input class="col-12 form-control" placeholder="Name" Id="NameClientes" >
                         </div>
@@ -136,7 +136,7 @@
                                     <a class="nav-link" id="inventario-tab" data-toggle="tab" href="#Nota" role="tab" aria-controls="Nota" aria-selected="false">Nota interna</a>
                                   </li>
                                   <li class="nav-item">
-                                    <a class="nav-link" id="inventario-tab" data-toggle="tab" href="#venta" role="tab" aria-controls="venta" aria-selected="false">Ventas</a>
+                                    <a class="nav-link" id="inventario-tab" data-toggle="tab" href="#compras" role="tab" aria-controls="compras" aria-selected="false">Compras</a>
                                   </li>
                                   <li class="nav-item">
                                     <a class="nav-link" id="inventario-tab" data-toggle="tab" href="#Contabilidad" role="tab" aria-controls="Contabilidad" aria-selected="false">Contabilidad</a>
@@ -147,23 +147,23 @@
                                 </ul>
                             </div>
                             <div class="tab-content col-sm-12" id="myTabContent">
-                              <div class="tab-pane fade active show" id="Contactos" role="tabpanel" aria-labelledby="ventas-tab">
+                              <div class="tab-pane fade active show" id="Contactos" role="tabpanel" aria-labelledby="Contactos-tab">
                                   <div class="card-body">
-                                        <input type="button" class="btn btn-light" value="Añadir">
+                                        <input type="button" class="btn btn-light" value="Añadir">|
                                   </div>
                               </div>
                               
-                              <div class="tab-pane fade" id="Nota" role="tabpanel" aria-labelledby="inventario-tab">
+                              <div class="tab-pane fade" id="Nota" role="tabpanel" aria-labelledby="Nota-tab">
                                     <div class="card-body">
                                         <h5 style="color:#211640">Nota</h5>
                                     </div>
                               </div>
-                              <div class="tab-pane fade" id="venta" role="tabpanel" aria-labelledby="inventario-tab">
+                              <div class="tab-pane fade" id="compras" role="tabpanel" aria-labelledby="compras-tab">
                                 <div class="card-body">
-                                    <h5 style="color:#211640">Venta</h5>
+                                    <h5 style="color:#211640">compras</h5>
                                 </div>
                               </div>
-                              <div class="tab-pane fade" id="Contabilidad" role="tabpanel" aria-labelledby="inventario-tab">
+                              <div class="tab-pane fade" id="Contabilidad" role="tabpanel" aria-labelledby="Contabilidad-tab">
                                 <div class="card-body">
                                     <h5 style="color:#211640">Contabilidad</h5>
                                 </div>
@@ -185,12 +185,9 @@
                                         <p class="col-3">Días Credito</p>
                                         <input  class="col-9 form-control" type="number" name="" value="31" id="" min="31">
                                       </div>
-                                      <p class="col-3">Limited De Credito</p>
-                                      <input class="col-9 form-control" type="number" value="0.00">
                                     </div>
                                 </div>
                               </div>
-
                             </div>
                         </div>
                     </div>

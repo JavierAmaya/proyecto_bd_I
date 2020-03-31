@@ -5,6 +5,7 @@ $(document).ready(function(){
 function Retornar(){
     window.location.href="../index.html"
 }
+
 function HabilitarCredito(){
     var CreditoCheck = document.getElementById('TamaniCheckbox').checked;
     var InformacionCreditos = document.getElementById('InfoCreditos');
