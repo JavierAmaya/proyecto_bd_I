@@ -10,10 +10,10 @@ class Conexion{
     private $puerto;
     private $esConectado=false;
     public function __construct(
-        $host =  "unah-rafaelbautista.database.windows.net", //Colocan el servidor de Azure donde esta la Base de Datos
-        $database =  "BD_Ingreso_Vehiculo", //colocan el nombre de la base de datos 
-        $usuario =  "Rafa-admin",//usuario
-        $pass =  "Olimpia.2012",//contraseña
+        $host =  "unahvjamaya.database.windows.net", //Colocan el servidor de Azure donde esta la Base de Datos
+        $database =  "ingreso_vehiculos", //colocan el nombre de la base de datos 
+        $usuario =  "vjamaya",//usuario
+        $pass =  "Admin203Amaya.",//contraseña
         $port = 3308,
         $link = null
     ){
@@ -43,6 +43,7 @@ class Conexion{
             echo "conectato amor con mysql";
 
         }
+        
     }
 
 }
